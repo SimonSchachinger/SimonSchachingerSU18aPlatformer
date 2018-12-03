@@ -9,8 +9,9 @@ public class Victory : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player")
-        {
+        {//printar Victory! när spelaren nuddar målet
             print("Victory!");
+            //laddar om banan om spelaren dör eller vinner
             SceneManager.LoadScene(levelToLoad);
         }
     }

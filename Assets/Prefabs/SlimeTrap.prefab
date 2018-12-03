@@ -25,7 +25,7 @@ GameObject:
   m_Layer: 0
   m_Name: EnemyFlipWall (1)
   m_TagString: InvisibleWall
-  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -78,7 +78,7 @@ GameObject:
   m_Layer: 0
   m_Name: EnemyFlipWall
   m_TagString: InvisibleWall
-  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -115,7 +115,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1471189058015380}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.45904, y: -6.3444133, z: 0.10747365}
+  m_LocalPosition: {x: 8.639025, y: -3.35, z: 0.10747365}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4866332021429232}
@@ -131,8 +131,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1149129597543482}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.730961, y: -0.15558672, z: -0.0410674}
-  m_LocalScale: {x: 0.5445, y: 0.9954141, z: 0.99}
+  m_LocalPosition: {x: 8.49, y: -0.15558672, z: -0.0410674}
+  m_LocalScale: {x: 0.555, y: 0.9954141, z: 0.99}
   m_Children: []
   m_Father: {fileID: 4641558037303106}
   m_RootOrder: 0

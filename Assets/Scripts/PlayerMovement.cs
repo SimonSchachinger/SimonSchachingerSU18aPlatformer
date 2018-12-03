@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     [Range(0, 20f)]
     public float moveSpeed;
     public float jumpHeight;
-
+    //kollar när spelaren nuddar marken
     public GroundCheck groundCheck;
 
     private Rigidbody2D rbody;
@@ -32,3 +32,5 @@ public class PlayerMovement : MonoBehaviour
 
     }
 }
+//funktion sammanfattningar
+// OntriggerEnter: Gör att något händer när två objekt kolliderar
