@@ -9,7 +9,7 @@ public class ScoreTracker : MonoBehaviour
     public int totalScore;
 
     private void Update()
-    {
+    {//visar en räknare som räknar antalet coins man har tagit
         scoreText.text = string.Format("Score: {0}", totalScore);
     }
 

@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     {
     
         rbody.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * moveSpeed, rbody.velocity.y);
-
+        // om man trycker på space och står på marken hoppar man
         if (Input.GetKeyDown(KeyCode.Space) && groundCheck.touches > 0)
         {
             rbody.velocity = new Vector2(rbody.velocity.x, jumpHeight);
