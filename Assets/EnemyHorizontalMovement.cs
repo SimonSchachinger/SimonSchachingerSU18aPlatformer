@@ -52,7 +52,7 @@ public class EnemyHorizontalMovement : MonoBehaviour
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
-    {// om fiemdens sprite nuddar en osynlig vägg
+    {// om fiendens sprite nuddar en osynlig vägg
         if (collision.tag == "InvisibleWall")
         {
             //move funktion kallas med flip=true så att fienden byter håll
