@@ -38,8 +38,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4101699010812558}
   - component: {fileID: 212456445519140662}
-  - component: {fileID: 114280201408268428}
-  - component: {fileID: 60832274795512388}
   - component: {fileID: 50616750558058346}
   - component: {fileID: 114658608593986854}
   m_Layer: 0
@@ -59,6 +57,24 @@ GameObject:
   - component: {fileID: 4641558037303106}
   m_Layer: 0
   m_Name: SlimeTrap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1569465414546654
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4778542937439328}
+  - component: {fileID: 114835830989276462}
+  - component: {fileID: 60731342770382612}
+  - component: {fileID: 114814386156888176}
+  m_Layer: 0
+  m_Name: KillCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -93,7 +109,7 @@ GameObject:
   - component: {fileID: 60028562696768572}
   - component: {fileID: 114420344988508470}
   m_Layer: 11
-  m_Name: KillCollider
+  m_Name: KillEnemyCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123,6 +139,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4033417049976486}
+  - {fileID: 4778542937439328}
   m_Father: {fileID: 4641558037303106}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -154,6 +171,19 @@ Transform:
   - {fileID: 4101699010812558}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4778542937439328
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569465414546654}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4101699010812558}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4866332021429232
 Transform:
@@ -220,12 +250,12 @@ PolygonCollider2D:
       - {x: 0.0211792, y: -0.22718668}
       - {x: 0.10566902, y: -0.2436099}
       - {x: 0.10873985, y: -0.1344986}
---- !u!60 &60832274795512388
+--- !u!60 &60731342770382612
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1279977528021530}
+  m_GameObject: {fileID: 1569465414546654}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -235,21 +265,20 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.26702118, y: -0.26533318}
-      - {x: 0.1379013, y: -0.2592063}
-      - {x: -0.15190315, y: -0.23760748}
-      - {x: -0.2980442, y: -0.22774267}
-      - {x: -0.28491974, y: -0.47029686}
-      - {x: 0.28424263, y: -0.48514843}
+    - - {x: -0.0021591187, y: -0.23075199}
+      - {x: -0.29037857, y: -0.27825117}
+      - {x: -0.2466526, y: -0.46356487}
+      - {x: 0.25097275, y: -0.45061016}
+      - {x: 0.27742577, y: -0.27825212}
 --- !u!61 &61731918356223266
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -300,17 +329,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &114280201408268428
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1279977528021530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be2d3cefd18002d4e85ca11df833f485, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114420344988508470
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -357,6 +375,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   isLeft: 1
+--- !u!114 &114814386156888176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569465414546654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be2d3cefd18002d4e85ca11df833f485, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114835830989276462
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569465414546654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f3d28082f85afd458b9a95809bd618d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212437911036570370
 SpriteRenderer:
   m_ObjectHideFlags: 1

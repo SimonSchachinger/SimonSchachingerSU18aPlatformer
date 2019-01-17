@@ -150,7 +150,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4780910955515892, guid: 0fc4538b525c0a94b91e14ea00bf7148, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fc4538b525c0a94b91e14ea00bf7148, type: 2}
@@ -205,7 +205,7 @@ Prefab:
     - target: {fileID: 224424190212076054, guid: fec50876aa91b2b46a2191dc705a9073,
         type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224424190212076054, guid: fec50876aa91b2b46a2191dc705a9073,
         type: 2}
@@ -2601,7 +2601,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4641558037303106, guid: 0249b4efb28cdde4eb2ef2695c1a48f0, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0249b4efb28cdde4eb2ef2695c1a48f0, type: 2}
@@ -2643,7 +2643,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4704037316494836, guid: 07aea30295812bd4ab4ea96b9e7cc3c8, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07aea30295812bd4ab4ea96b9e7cc3c8, type: 2}
@@ -2685,7 +2685,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4704037316494836, guid: 07aea30295812bd4ab4ea96b9e7cc3c8, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1597305927704040, guid: 07aea30295812bd4ab4ea96b9e7cc3c8, type: 2}
       propertyPath: m_Name
@@ -2731,7 +2731,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4410317813606468, guid: 9ec174b4eb325e049b2de2e71a11f2e3, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114100557967214950, guid: 9ec174b4eb325e049b2de2e71a11f2e3,
         type: 2}
@@ -2741,6 +2741,11 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ec174b4eb325e049b2de2e71a11f2e3, type: 2}
   m_IsPrefabAsset: 0
+--- !u!4 &1251303241 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4780910955515892, guid: 0fc4538b525c0a94b91e14ea00bf7148,
+    type: 2}
+  m_PrefabInternal: {fileID: 306399394}
 --- !u!1001 &1405360492
 Prefab:
   m_ObjectHideFlags: 0
@@ -2792,11 +2797,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4388623429978232, guid: f7c122ee7b1dbfa4c854455327a12c4b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.59
+      value: 1.38
       objectReference: {fileID: 0}
     - target: {fileID: 4388623429978232, guid: f7c122ee7b1dbfa4c854455327a12c4b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.15
+      value: -1.44
       objectReference: {fileID: 0}
     - target: {fileID: 4388623429978232, guid: f7c122ee7b1dbfa4c854455327a12c4b, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2925,12 +2930,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1934080657}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6.54, y: -14.28, z: -0.12109375}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1251303241}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2101832484
 Prefab:
@@ -2969,7 +2974,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4704037316494836, guid: 07aea30295812bd4ab4ea96b9e7cc3c8, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1597305927704040, guid: 07aea30295812bd4ab4ea96b9e7cc3c8, type: 2}
       propertyPath: m_Name
