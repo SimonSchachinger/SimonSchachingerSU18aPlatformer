@@ -146,7 +146,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1471189058015380}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.639025, y: -3.35, z: 0.10747365}
+  m_LocalPosition: {x: 19.45904, y: -6.3444133, z: 0.10747365}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4866332021429232}
@@ -214,12 +214,12 @@ PolygonCollider2D:
     m_Paths:
     - - {x: 0.12545013, y: -0.05615568}
       - {x: -0.103284836, y: -0.042983055}
-      - {x: -0.21291542, y: -0.09870529}
-      - {x: -0.2959938, y: -0.2160325}
-      - {x: -0.19825363, y: -0.19443178}
-      - {x: 0.023101807, y: -0.1329689}
-      - {x: 0.2864132, y: -0.2551465}
-      - {x: 0.2356453, y: -0.1402669}
+      - {x: -0.028327942, y: -0.13583517}
+      - {x: -0.09845543, y: -0.052783966}
+      - {x: -0.107601166, y: -0.23700666}
+      - {x: 0.0211792, y: -0.22718668}
+      - {x: 0.10566902, y: -0.2436099}
+      - {x: 0.10873985, y: -0.1344986}
 --- !u!60 &60832274795512388
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -229,7 +229,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

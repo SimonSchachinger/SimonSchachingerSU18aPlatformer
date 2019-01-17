@@ -37,4 +37,6 @@ public class PlayerMovement : MonoBehaviour
     }
 }
 //funktion sammanfattningar
+// OnTriggerExit2D: gör att något händer när två objekt slutar nudda varandra
+// OnCollisionEnter2D: Gör att två objekt kolliderar och gör så att de stoppar varandra
 // OntriggerEnter: Gör att något händer när två objekt kolliderar

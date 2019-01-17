@@ -5,6 +5,7 @@ using TMPro;
 // using UnityEngine.UI
 public class ScoreTracker : MonoBehaviour
 {
+    // spesificerar vilken varabel av den gröna typen man menar
     public TMPro.TextMeshProUGUI scoreText;
     public int totalScore;
 
